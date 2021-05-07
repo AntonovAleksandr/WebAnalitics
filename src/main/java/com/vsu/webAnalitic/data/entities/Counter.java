@@ -11,7 +11,7 @@ import javax.persistence.*;
 @Table(name = "counters", schema = "public")
 @NoArgsConstructor
 @AllArgsConstructor
-public class Сounter {
+public class Counter {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
