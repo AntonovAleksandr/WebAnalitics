@@ -1,11 +1,12 @@
 package com.vsu.webAnalitic.data.service;
 
-import com.vsu.webAnalitic.data.entities.Response;
-import com.vsu.webAnalitic.data.entities.User;
+import com.vsu.webAnalitic.data.acceleration.dto.UserDto;
+import com.vsu.webAnalitic.data.raw.entity.RawUser;
 
 import java.util.List;
 
 public interface UserService {
-    List<User> findAll();
-    User findByID(Long id);
+    void add(UserDto userDto);
+    List<RawUser> findAll();
+    RawUser findByID(Long id);
 }

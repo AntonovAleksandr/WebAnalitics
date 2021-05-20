@@ -1,7 +1,6 @@
 package com.vsu.webAnalitic.data.service;
 
-import com.vsu.webAnalitic.data.entities.Response;
-import com.vsu.webAnalitic.data.entities.User;
+import com.vsu.webAnalitic.data.raw.entity.Response;
 
 import java.util.List;
 
