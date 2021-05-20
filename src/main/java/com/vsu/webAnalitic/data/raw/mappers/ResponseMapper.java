@@ -1,6 +1,6 @@
-package com.vsu.webAnalitic.data.mappers;
-import com.vsu.webAnalitic.data.dto.ResponseDto;
-import com.vsu.webAnalitic.data.entities.Response;
+package com.vsu.webAnalitic.data.raw.mappers;
+import com.vsu.webAnalitic.data.raw.dto.ResponseDto;
+import com.vsu.webAnalitic.data.raw.entity.Response;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 import java.util.List;

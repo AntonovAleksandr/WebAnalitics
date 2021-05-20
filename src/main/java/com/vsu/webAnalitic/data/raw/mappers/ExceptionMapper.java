@@ -1,6 +1,6 @@
-package com.vsu.webAnalitic.data.mappers;
-import com.vsu.webAnalitic.data.dto.ExceptionLogDto;
-import com.vsu.webAnalitic.data.entities.ExceptionLog;
+package com.vsu.webAnalitic.data.raw.mappers;
+import com.vsu.webAnalitic.data.acceleration.dto.ExceptionLogDto;
+import com.vsu.webAnalitic.data.acceleration.entity.ExceptionLog;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 import java.util.List;
