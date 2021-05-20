@@ -1,4 +1,4 @@
-package com.vsu.webAnalitic.data.entities;
+package com.vsu.webAnalitic.data.acceleration.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -19,4 +19,8 @@ public class Counter {
     private String title;
     @Column(name = "value")
     private Long value;
+
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinColumn(name = "project_id")
+    private Project project;
 }
