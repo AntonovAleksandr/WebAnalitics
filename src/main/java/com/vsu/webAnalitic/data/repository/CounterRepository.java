@@ -1,6 +1,6 @@
 package com.vsu.webAnalitic.data.repository;
 
-import com.vsu.webAnalitic.data.entities.Counter;
+import com.vsu.webAnalitic.data.acceleration.entity.Counter;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 
