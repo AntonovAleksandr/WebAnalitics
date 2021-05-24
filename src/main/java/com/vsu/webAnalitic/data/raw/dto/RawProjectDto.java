@@ -12,4 +12,5 @@ public class RawProjectDto {
     private Long id;
     private RawUserDto ownerDto;
     private List<SessionDto> sessionDtos;
+    private List<RawCounterDto> rawCounterDtos;
 }
