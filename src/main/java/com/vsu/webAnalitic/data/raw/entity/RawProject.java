@@ -1,6 +1,7 @@
 package com.vsu.webAnalitic.data.raw.entity;
 
 
+import com.vsu.webAnalitic.data.raw.dto.RawCounterDto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -24,4 +25,7 @@ public class RawProject {
 
     @OneToMany(mappedBy = "project", fetch = FetchType.LAZY)
     private List<Session>  sessions;
+
+    @OneToMany(mappedBy = "project", fetch = FetchType.LAZY)
+    private List<RawCounter> rawCounters;
 }
