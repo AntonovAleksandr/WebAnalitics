@@ -17,4 +17,11 @@ public class CounterController {
         counterService.add(counterDto);
         return;
     }
+
+    @PostMapping("/counters")
+    @ResponseBody
+    public void counterPage(@RequestBody CounterDto counterDto){
+        counterService.getAll();
+        return;
+    }
 }
