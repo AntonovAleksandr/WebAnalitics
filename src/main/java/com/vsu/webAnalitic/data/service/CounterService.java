@@ -8,4 +8,5 @@ public interface CounterService {
     void add(CounterDto counterDto);
     List<Counter> findAll();
     Counter findByID(Long id);
+    void getAll();
 }
