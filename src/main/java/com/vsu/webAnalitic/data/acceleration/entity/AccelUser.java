@@ -1,4 +1,4 @@
-package com.vsu.webAnalitic.data.acceleration.entity;
+﻿package com.vsu.webAnalitic.data.acceleration.entity;
 
 
 import com.vsu.webAnalitic.data.raw.entity.RawProject;
@@ -24,7 +24,7 @@ public class AccelUser {
     private String password;
 
     @OneToMany(mappedBy = "owner", fetch = FetchType.LAZY)
-    List<RawProject> rawProjects;
+    private List<Project> projects;
 
 
 

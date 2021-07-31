@@ -23,4 +23,9 @@ public class CounterServiceImpl implements CounterService {
     public Counter findByID(Long id) {
         return null;
     }
+
+    @Override
+    public void getAll() {
+
+    }
 }

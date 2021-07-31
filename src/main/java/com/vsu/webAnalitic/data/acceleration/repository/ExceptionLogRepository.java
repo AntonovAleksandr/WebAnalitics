@@ -1,4 +1,4 @@
-package com.vsu.webAnalitic.data.repository;
+package com.vsu.webAnalitic.data.acceleration.repository;
 
 import com.vsu.webAnalitic.data.acceleration.entity.ExceptionLog;
 import org.springframework.data.repository.PagingAndSortingRepository;
